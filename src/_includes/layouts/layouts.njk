@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11ty Static Site</title>
+    <style>
+    {% include "css/common.css" %}
+    </style>
+  </head>
+  <body>
+    {{ content | safe }}
+  </body>
+</html>
